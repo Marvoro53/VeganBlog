@@ -33,9 +33,13 @@ ul {
     color: white;
   }
   .footer {
-    justify-content: center;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     background-color: green;
     color: white;
-    position: fixed;
-    text-align: center;
+  }
+.img2{
+    float:center;
 }
