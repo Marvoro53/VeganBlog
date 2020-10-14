@@ -1,6 +1,11 @@
 img{
     float: left;
     border: solid green 5px;
+    transition-duration: 5s;
+    transition-property: background-color;
+}
+img:hover{
+    background-color: turquoise;
 }
 h2{
     text-align: center;
@@ -45,8 +50,19 @@ ul {
     width: 100%;
     background-color: green;
     color: white;
+    transition-duration: 5s;
+      transition-property: background-color;
+      color: brown;
+  }
+  .footer:hover{
+      background-color: turquoise;
   }
   .card-img-top{
       height: 300px;
-      widows: 200;
+      width: 200;
   }
+
+
+  
+
+
