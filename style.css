@@ -8,6 +8,12 @@ h2{
 p{
     text-align: center;
 }
+.one{
+    text-align: left;
+}
+body{
+    background-color: grey;
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -33,13 +39,14 @@ ul {
     color: white;
   }
   .footer {
-    position: absolute;
+    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     background-color: green;
     color: white;
   }
-.img2{
-    float:center;
-}
+  .card-img-top{
+      height: 300px;
+      widows: 200;
+  }
